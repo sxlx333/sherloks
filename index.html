@@ -4,31 +4,58 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+
+    <style>
+        body {
+            background-color: #EBECEE; font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        main {
+            display: inline-block;
+            width: 52%;
+            background-color: #EBECEE;
+            margin-right: 15%;
+            margin-left: 15%;
+            margin-top: 5%;
+            border-radius: 20px;
+            box-shadow: 0px 13px 20px rgb(80, 80, 80);
+        }
+        div.main {
+            display: inline-block;
+            width: 80%;
+            margin-bottom: 50px;
+            margin-top: 45px;
+            margin-left: 19%;
+            margin-right: 10%;
+        }
+        div.alt {
+            width:50%; float: right; margin-bottom:50px; margin-right:10%;     margin-top: 14px; text-align: center;
+        }
+        h1 {
+            font-size: 90px; color: rgb(63, 63, 63);margin: 0px;
+        }
+        p.missing {
+            font-weight:bold; color:rgb(75, 75, 75);
+        }
+        p.second {
+            color: rgb(173, 173, 173);
+        }
+        button {
+            background-color: #667285; color:#fff; border:none; padding:15px; font-weight: bold;
+        }
+    </style>
+
 </head>
-<body style="background-color: #EBECEE; font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif">
-    <main style="display: inline-block;
-        width: 52%;
-    background-color: #EBECEE;
-    margin-right: 15%;
-    margin-left: 15%;
-    margin-top: 5%;
-    border-radius: 20px;
-    box-shadow: 0px 13px 20px rgb(80, 80, 80);">
+<body>
+    <main>
         
-        <div style="display: inline-block;
-        width: 80%;
-        margin-bottom: 50px;
-        margin-top: 45px;
-        margin-left: 19%;
-        margin-right: 10%;
-        ">
+        <div class="main">
             <img  src="sherlokas.PNG" alt="lempute" width="200px" height="350px">
-            <div style="width:50%; float: right; margin-bottom:50px; margin-right:10%;     margin-top: 14px;
-                text-align: center; ">
-                <h1 style="    font-size: 90px; color: rgb(63, 63, 63);margin: 0px;">404</h1>
-                <p style="font-weight:bold; color:rgb(75, 75, 75)">Looks like this page is missing. Don't worry though, our best man is on the case.</p>
-                <p style="color: rgb(173, 173, 173)">Meanwhile, why don't try again by going</p>
-                <button style="background-color: #667285; color:#fff; border:none; padding:15px; font-weight: bold;" type="button">BACK HOME</button>
+            <div class="alt">
+                <h1>404</h1>
+                <p class="missing">Looks like this page is missing. Don't worry though, our best man is on the case.</p>
+                <p class="second">Meanwhile, why don't try again by going</p>
+                <button type="button">BACK HOME</button>
 
 
             </div>
